@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Zainab Maqbool</title>
+  <meta name="description" content="Projects by Zainab Maqbool - Cybersecurity, Flutter and AI work." />
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">Zainab<span>.dev</span></a>
+      </div>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-container" style="grid-template-columns: 1fr;">
+      <div class="hero-content" style="text-align:center;">
+        <p class="hero-subtitle">Portfolio</p>
+        <h1 class="hero-title">Projects</h1>
+        <p class="hero-description">A selection of my Flutter, AI, and web projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Projects</h2>
+        <div class="title-underline"></div>
+        <p>Some of my recent work</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Reacte-Rative -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/reacte-rative-1.png" alt="Reacte-Rative Interactive Learning Platform" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/zainabmaqbool/reacte-rative" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Auth</span>
+            </div>
+            <h3>Reacte-Rative</h3>
+            <p>Interactive learning platform with Firebase authentication and real-time data synchronization.</p>
+          </div>
+        </div>
+
+        <!-- Recycle App -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/recycle-app.png" alt="Recycle App Waste Reporting" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/zainabmaqbool/recycle-app" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Geo</span>
+            </div>
+            <h3>Recycle App</h3>
+            <p>Waste reporting app with secure authentication, location tracking, and admin workflow.</p>
+          </div>
+        </div>
+
+        <!-- AI Diabetes Prediction -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/ai-diabetes.png" alt="AI Diabetes Prediction" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/zainabmaqbool/ai-diabetes-prediction" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">DL</span>
+            </div>
+            <h3>AI Diabetes Prediction</h3>
+            <p>ANN/CNN/DNN models for diabetes prediction with model comparison and evaluation.</p>
+          </div>
+        </div>
+
+        <!-- Tesla Clone -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/tesla-clone.png" alt="Tesla Website Clone" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/zainabmaqbool/tesla-clone" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+            <h3>Tesla Clone</h3>
+            <p>Responsive Tesla landing page clone with modern UI and smooth interactions.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="view-more">
+        <a href="https://github.com/zainabmaqbool" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <i class="fab fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2024 Zainab Maqbool. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</body>
+</html>

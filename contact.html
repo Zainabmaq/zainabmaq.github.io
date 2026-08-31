@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Zainab Maqbool</title>
+  <meta name="description" content="Contact Zainab Maqbool for collaborations and opportunities." />
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">Zainab<span>.dev</span></a>
+      </div>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-container" style="grid-template-columns: 1fr;">
+      <div class="hero-content" style="text-align:center;">
+        <p class="hero-subtitle">Let’s connect</p>
+        <h1 class="hero-title">Contact</h1>
+        <p class="hero-description">Feel free to reach out for collaborations or opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Get In Touch</h2>
+        <div class="title-underline"></div>
+        <p>I usually reply within 24–48 hours.</p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>You can reach me via email or LinkedIn.</p>
+
+          <div class="info-items">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="info-content">
+                <h4>Email</h4>
+                <a href="mailto:zainabmaqbool733@gmail.com">zainabmaqbool733@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-phone"></i></div>
+              <div class="info-content">
+                <h4>Phone</h4>
+                <a href="tel:+923055372710">+92 305-5372710</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="info-content">
+                <h4>Location</h4>
+                <p>Askari, Cantt, Lahore, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="info-content">
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/zainabmaqbool17/" target="_blank" rel="noopener noreferrer">
+                  linkedin.com/in/zainabmaqbool17
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/zainabmaqbool17/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/zainabmaqbool" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:zainabmaqbool733@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <!-- If you use Formspree: replace YOUR-FORM-ID -->
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <i class="fas fa-user"></i>
+            </div>
+
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required />
+              <i class="fas fa-envelope"></i>
+            </div>
+
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" required />
+              <i class="fas fa-tag"></i>
+            </div>
+
+            <div class="form-group">
+              <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+              <i class="fas fa-comment"></i>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2024 Zainab Maqbool. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</body>
+</html>
